@@ -4,8 +4,18 @@
     <title>Exercise 2</title>
 </head>
 <body>
+    <form name="Kalkulator">
     <center>
         <h1>Kalkulator</h1>
+        <input id="A"  type="number"/>
+        <input id="B" type="number"/>
+        <button onclick="document.getElementById('hasil').innerHTML = document.getElementById('A').value * document.getElementById('B').value " type="button"> X </button>
+        <button onclick="document.getElementById('hasil').innerHTML = document.getElementById('A').value / document.getElementById('B').value "type="button"> / </button>
+        <button onclick="document.getElementById('hasil').innerHTML = document.getElementById('A').value - document.getElementById('B').value " type="button"> - </button>
+        <button onclick="document.getElementById('hasil').innerHTML = document.getElementById('A').value + document.getElementById('B').value " type="button"> + </button>
+        <h2 id="hasil"></h2>
+        <!-- <input type="button" -->
     </center>
+    
 </body>
 </html>
